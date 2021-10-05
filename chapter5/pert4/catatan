@@ -1,0 +1,4 @@
+send file eror 404
+mendefine route menggunakan * yg artinya selain route yang terdaftar dia akan muncul eror
+menjalankan npm run start dev
+harus 
