@@ -1,0 +1,25 @@
+Metode Http(untuk melakukan aksi)
+-GET Untuk request/meminta data
+-POST Untuk Memasukan/insert data
+-PUT Untuk mengupdate data(seluruhnya)
+-PATCH Untuk Mengupdate data(sebagian)
+-DELETE Untuk menghapus data
+cara melihatnya lewat browser inspect elemt->network
+
+Http status codes(kode yang diberikan ketika proses berhasil/untuk respon gagal atau berhasil)
+(bisa dilihat di https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+100 digunakan untuk memberikan informasi
+200 digunakan untuk respon sukses
+300 digunakan untuk redirect halaman
+400 digunakan jika ada kesalahan user
+500 digunakan jika server eror
+
+write head untuk write headernya
+
+restart server jika ada pengubahan harus dimatikan terlebih dahulu dengan ctrl+c
+
+
+library nodemon untuk membuat kodingan bisa berjalan tanpa restart server
+npm install -D nodemon
+cara menjalankan "run start:dev"
+
