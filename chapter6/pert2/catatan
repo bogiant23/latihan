@@ -1,0 +1,34 @@
+sql adalah bahasa query yang dirancang untuk mengola data didalam database
+
+DDL (Data Definition Language) adalah perintah yang digunakan untuk mendefinisikan suatu struktur
+baik itu ditable maupun database
+contoh perintah DDL
+Create digunakan untuk membuat sesuatu di dalam SQL DBMS, baik itu table, database, view, procedure,
+  dan lain-lain.
+  contoh : Create Database nama_database
+Alter untuk memodifikasi database, misalnya kita dapat melakukan penamaan ulang pada suatu database.
+Drop untuk menghapus sebuah struktur, baik itu database maupun table.
+
+
+
+DML(Data Manipulation Language) adalah perintah yang kita gunakan untuk melakukan manipulasi data di
+dalam suatu database.
+contoh perintah DML
+Select digunakan untuk mencari data di dalam database.
+Insert digunakan untuk memasukkan baris data baru di dalam sebuah table.
+Delete digunakan untuk menghapus suatu data di dalam sebuah table.
+Update digunakan untuk memperbarui atau update suatu data di dalam sebuah table.
+
+DCL(Data Control Language) adalah perintah yang kita gunakan
+untuk mengubah hak akses, memberikan roles, dan isu
+lain yang berhubungan dengan keamanan database.
+Contoh perintah DCL
+Revoke
+Grant
+
+TCL(Transaction Control Language) adalah perintah yang
+berurusan dengan transaksi database.
+contoh perintah TCL
+Begin 
+Commit
+Roolback
