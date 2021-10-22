@@ -1,0 +1,5 @@
+Untuk koneksi database ke nodejs harus install beberapa library
+1. library databasenya (npm i pg) pg for postgress
+2. library sequalize (npm install sequalize) sequalize.org
+
+library untuk hashing password bcrypt(npm install bcrypt)
