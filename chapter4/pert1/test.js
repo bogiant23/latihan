@@ -29,3 +29,13 @@ if(true){
     let diskon = 300
 }
 console.log(diskon3)
+
+//reassigneed and redeclared
+var name;
+console.log(name)
+
+name = 'bot'
+console.log(name)
+
+var name = 'Bot Sabrina'
+console.log(name)
