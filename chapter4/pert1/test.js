@@ -39,3 +39,11 @@ console.log(name)
 
 var name = 'Bot Sabrina'
 console.log(name)
+
+//cara cek tipe data
+let pesan = 'hello world'
+console.log(typeof pesan)
+
+console.log(typeof 10)
+
+console.log(typeof(true))
